@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter-div{
+    width: 40rem;
+    border: 1px solid #fff;
+    padding: 1rem;
+    background-color: rgb(34, 34, 250);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2rem;
+}
+.buttons button{
+    padding: 1rem;
+    margin:  1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons #rock, #paper, #scissor{
+    color: #000;
+}
